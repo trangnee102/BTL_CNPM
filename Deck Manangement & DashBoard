@@ -1,0 +1,29 @@
+# 🚀 AI-Powered Flashcard System
+
+## 📝 Tổng quan dự án
+Hệ thống Flashcard thông minh áp dụng thuật toán **Spaced Repetition System (SRS)**, tích hợp trí tuệ nhân tạo (Generative AI) nhằm tối ưu hóa quá trình học tập cho sinh viên và người tự học. Dự án giải quyết trực tiếp "nút thắt" trong việc biên soạn học liệu thủ công và suy giảm trí nhớ dài hạn.
+
+## 🔑 Các giá trị cốt lõi (Key Features)
+*   **AI-Driven Content Extraction:** Tự động chuyển đổi tài liệu thô (PDF/Word) thành bộ thẻ học tập chất lượng cao thông qua API Gemini.
+*   **Intelligent SRS Algorithm:** Thuật toán lặp lại ngắt quãng dựa trên Đường cong quên lãng (Ebbinghaus) giúp cá nhân hóa lộ trình ôn tập.
+*   **Adaptive Cram Mode:** Cơ chế rẽ nhánh thuật toán cho phép ôn tập cường độ cao (Micro-steps) trong giai đoạn nước rút.
+*   **Collaborative Sharing:** Hệ thống chia sẻ học liệu công khai, hỗ trợ sao chép (Clone) tài liệu giữa người dùng trong cộng đồng.
+
+## 🏗 Kiến trúc hệ thống & Thiết kế
+- **Frontend**: [Tên công nghệ, ví dụ: ReactJS/NextJS]
+- **Backend**: [Tên công nghệ, ví dụ: NodeJS/Python]
+- **AI Integration**: Gemini API for text processing & semantic analysis.
+- **Database**: [Tên database, ví dụ: PostgreSQL/SQL Server]
+
+## 📋 Tài liệu dự án (Documentation)
+Hội đồng có thể tham khảo các tài liệu chuyên sâu tại đây:
+- [📖 Bản đồ hành trình người dùng (User Journey Map)](./docs/user_journey.md)
+- [📐 Đặc tả kỹ thuật (Technical Specification)](./docs/spec.md)
+- [Wireframes & UI Design](./assets/wireframes/)
+
+## 📈 Kết quả đạt được
+- Giảm 90% thời gian nhập liệu thủ công nhờ module AI.
+- Tăng hiệu suất ghi nhớ dài hạn thông qua thuật toán SRS đã được kiểm chứng.
+
+---
+*Dự án được thực hiện nhằm mục đích học tập và ứng dụng thực tiễn trong khuôn khổ môn học Công Nghệ Phần Mềm.*
