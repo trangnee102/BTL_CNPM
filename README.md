@@ -1,5 +1,6 @@
 
 https://cmcuni-my.sharepoint.com/:w:/g/personal/bit250344_st_cmcu_edu_vn/IQBb1Ixsj54JS709JC-dLIUbAad95OzqRCeYvxjgRc-SkjY?e=K1lF0M
+
 PHÂN TÍCH CHÂN DUNG NGƯỜI DÙNG MỤC TIÊU (USER PERSONAS)
 Dựa trên việc khảo sát và phân tích nhu cầu thực tế, hệ thống phân chia tệp người dùng mục tiêu thành 4 nhóm chính với các đặc điểm, khó khăn và nhu cầu giải pháp chuyên biệt như sau:
 1. Nhóm 1: Học sinh, Sinh viên (Người học đại trà)
