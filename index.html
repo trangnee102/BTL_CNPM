@@ -20,9 +20,6 @@
                     </div>
                     <span class="logo-text">ForgotMeNot</span>
                 </div>
-                <button class="toggle-btn" onclick="toggleSidebar()">
-                    <i class="fa-solid fa-chevron-left" id="toggle-icon"></i>
-                </button>
             </div>
 
             <nav class="sidebar-menu">
@@ -213,18 +210,5 @@
             </div>
         </main>
     </div>
-
-    <script>
-        function toggleSidebar() {
-            const sidebar = document.getElementById('sidebar');
-            const toggleIcon = document.getElementById('toggle-icon');
-            sidebar.classList.toggle('collapsed');
-            if(sidebar.classList.contains('collapsed')) {
-                toggleIcon.classList.replace('fa-chevron-left', 'fa-chevron-right');
-            } else {
-                toggleIcon.classList.replace('fa-chevron-right', 'fa-chevron-left');
-            }
-        }
-    </script>
 </body>
 </html>
