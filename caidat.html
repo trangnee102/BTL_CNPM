@@ -6,23 +6,69 @@
     <link rel="stylesheet" href="caidat.css">
 </head>
 <body>
+    <div class="settings-app">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1>Cài Đặt</h1>
+                <p>Quản lý tài khoản và tùy chọn ứng dụng</p>
+            </div>
+            <nav class="menu">
+                <a href="#" class="menu-item active"><span class="icon">⚙️</span> General</a>
+                <a href="#" class="menu-item"><span class="icon">🔔</span> Notifications</a>
+                <a href="#" class="menu-item"><span class="icon">🔒</span> Security</a>
+                <a href="#" class="menu-item"><span class="icon">👤</span> Accounts</a>
+            </nav>
+        </aside>
 
-    <div class="profile-box">
+        <main class="content">
+            <div class="content-header">
+                <div>
+                    <h2>General</h2>
+                    <p>Giao diện và ngôn ngữ ứng dụng</p>
+                </div>
+            </div>
 
-        <img src="https://via.placeholder.com/150" alt="avatar">
+            <section class="setting-card">
+                <div class="setting-row">
+                    <div>
+                        <p class="setting-label">Dark Mode</p>
+                        <span class="setting-desc">Chuyển sang giao diện tối để dễ nhìn hơn trong điều kiện ánh sáng yếu</span>
+                    </div>
+                    <label class="toggle-switch">
+                        <input type="checkbox" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </section>
 
-        <h2>Nguyễn Văn A</h2>
+            <section class="setting-card">
+                <div class="setting-row">
+                    <div>
+                        <p class="setting-label">Ngôn Ngữ</p>
+                        <span class="setting-desc">Chọn ngôn ngữ hiển thị của ứng dụng</span>
+                    </div>
+                    <select>
+                        <option value="vi">vn Tiếng Việt</option>
+                        <option value="en">en English</option>
+                    </select>
+                </div>
+            </section>
 
-        <div class="info">
-            <p><strong>Email:</strong> nguyenvana@gmail.com</p>
-            <p><strong>SĐT:</strong> 0123456789</p>
-            <p><strong>Ngày sinh:</strong> 01/01/2005</p>
-            <p><strong>Địa chỉ:</strong> Hà Nội</p>
-        </div>
+            <section class="setting-card boxed-panel">
+                <div class="panel-label">
+                    <p class="setting-label">Thuật toán Spaced Repetition</p>
+                    <span class="setting-desc">Hệ thống tự động tính toán lịch ôn tập dựa trên mức độ ghi nhớ của bạn</span>
+                </div>
+                <div class="panel-actions">
+                    <button class="panel-btn">SM-2 Algorithm</button>
+                    <span class="status-chip">Đang hoạt động</span>
+                </div>
+            </section>
 
-        <button>Chỉnh sửa hồ sơ</button>
-
+            <div class="footer-actions">
+                <button class="save-btn">Lưu thay đổi</button>
+            </div>
+        </main>
     </div>
-
 </body>
 </html>
