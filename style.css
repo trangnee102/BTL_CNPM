@@ -1,4 +1,13 @@
-/* --- BIẾN MÀU & RESET CHUNG --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
 :root {
   --primary-purple: #4f46e5;
   --light-purple: #f5f3ff;
@@ -25,13 +34,13 @@ a {
   text-decoration: none;
 }
 
-/* --- KHUNG ỨNG DỤNG (NỀN CHUNG) --- */
+
 .app-container {
   display: flex;
   min-height: 100vh;
 }
 
-/* --- SIDEBAR CHUNG NỀN TRẮNG --- */
+
 .sidebar {
   width: 264px;
   background-color: var(--white);
@@ -50,7 +59,7 @@ a {
   letter-spacing: 1px;
 }
 
-/* --- GIAO DIỆN LOGIN CHUẨN --- */
+
 .login-body {
   background-color: var(--light-purple);
   display: flex;
